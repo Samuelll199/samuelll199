@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:wght@900&display=swap" rel="stylesheet" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>WEB E-Commerce</title>
+  </head>
+  <body id="body">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <a class="navbar-brand" href="index.html">Shopping</a>
+          <ul class="navbar-nav mx-auto text-uppercase">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Produk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">About</a>
+            </li>
+          </ul>
+          <a href="mycart.html" class="nav-link cart d-flex align-items-center justify-content-lg-end">
+            <div class="cart-icon"><img src=cart-icon.png /> </div>
+            Keranjang Saya
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="container">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-sm-12 col-md-4 offset-md-2">
+                <h1>Spesial Bulan November</h1>
+                <p>Realme Band</p>
+                <button type="button" class="btn btn-primary"><a href="#features">Cek Produk Lain</a></button>
+              </div>
+              <div class="col-sm-12 col-md-4 align-items-md-start justify-content-md-end d-md-flex">
+                <img src="file hp/realmeband.jpg"  alt="realmeband" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-12 col-md-4 offset-md-2">
+                <h1>Spesial Bulan November</h1>
+                <p>Realme 10</p>
+                <button type="button" class="btn btn-primary"><a href="#features">Cek Produk Lain</a></button>
+              </div>
+              <div class="col-sm-12 col-md-4 align-items-md-start justify-content-md-end d-md-flex">
+                <img src="file hp/realme10.jpg" alt="realme10" />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-sm-12 col-md-4 offset-md-2">
+                <h1>Spesial Bulan November</h1>
+                <p>Xiomi Redmi 12</p>
+                <button type="button" class="btn btn-primary"><a href="#features">Cek Produk Lain</a></button>
+              </div>
+              <div class="col-sm-12 col-md-4 align-items-md-start justify-content-md-end d-md-flex"><img src="file hp/xiomiredmi12.jpg" alt="xiomiredmi12" /></div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev align-self-center" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" >
+            <span class="carousel-control-next-icon next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Akhir Carousel -->
+
+    
+
+    <!-- Features -->
+    <section class="features" id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Centaurus Celluler</h3>
+            <h5>Realme Store</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/realme10.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="single-product-3.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="single-product-3.html"><h5>Realme 10</h5></a>
+                <span>Rp.3.399.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/realmec30s.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="single-product.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="single-product.html"><h5>Realme C30 S</h5></a>
+                <span>Rp.1.599.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/realmenarzo50iprime.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="single-product-2.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="single-product-2.html"><h5>Realme Narzo 50i Prime</h5></a>
+                <span>Rp.1.499.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/realmec31.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="single-product-4.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="single-product-4.html"><h5>Realme C31</h5></a>
+                <span>Rp.1.749.000</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h5>Xiomi Redmi Poco Dan Pad</h5>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/xiomiredmi12.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkxiomi1.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkxiomi1.html"><h5>Xiomi Redmi 12</h5></a>
+                <span>Rp.2.199.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/xiomiredmi12c.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkxiomi2.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkxiomi2.html"><h5>Xiomi Redmi 12C</h5></a>
+                <span>Rp.1.199.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/xiomipocof5.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkxiomi3.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkxiomi3.html"><h5>Xiomi Poco F5</h5></a>
+                <span>Rp.4.999.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/xiomiredmipad.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkxiomi4.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkxiomi4.html"><h5>Xiomi Redmi Pad</h5></a>
+                <span>Rp.3.499.000</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4>Infinix Store</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/infinixnote12.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkinfi1.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkinfi1.html"><h5>Infinix Note 12</h5></a>
+                <span>Rp.2.799.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/infinixsmart.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkinfi2.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkinfi2.html"><h5>Infinix Smart</h5></a>
+                <span>Rp.1.149.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/infinixnote30pro.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkinfi3.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkinfi3.html"><h5>Infinix Note 30 Pro</h5></a>
+                <span>Rp.2.469.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/infinixgt10pro.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkinfi4.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkinfi4.html"><h5>Infinix GT 10 Pro</h5></a>
+                <span>Rp.3.349.000</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h4>Realme Dan Xiomi Aksesoris</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/realmeband.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkaks1.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkaks1.html"><h5>Realme Band</h5></a>
+                <span>Rp.549.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/realmebuds.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkaks2.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkaks2.html"><h5>Realme Buds</h5></a>
+                <span>Rp.296.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/redmiband.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkaks3.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkaks3.html"><h5>Xiomi Redmi Band</h5></a>
+                <span>Rp.549.000</span>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-6 col-sm-6 col-md-3">
+            <figure class="figure">
+              <div class="figure-img-container">
+                <img src="file hp/redmibuds.jpg" class="figure-img img-fluid" alt="..." />
+                <a href="produkaks4.html" class="d-flex justify-content-center"> <img src="plus_icon.png" / class="align-self-center"> </a>
+              </div>
+              <figcaption class="figure-caption text-center">
+                <a href="produkaks4.html"><h5>Xiomi Redmi Buds</h5></a>
+                <span>Rp.179.000</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Features -->
+
+    <!-- kontak -->
+
+    <section class="kontak" id="kontak">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Hubungi Kami</h3>
+            <p>Silahkan Hubungi Kami Untuk Pertanyaan Berkaitan Dengan Produk Ataupun Saran Untuk Toko Kami</p>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-6 col-md-6 col-lg-3 justify-content-center d-flex">
+            <a style="cursor: pointer">
+              <figure class="figure text-center">
+                <div class="figure-image">
+                  <img src="socmed/download.png" class="figure-img img-fluid rounded-circle" style="max-height: 110px" />
+                </div>
+                <figcaption class="figure-caption text-center">
+                  <h5>No Handphone</h5>
+                  <span>085401280675</span>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div class="col-6 col-md-6 col-lg-3 justify-content-center d-flex">
+            <a style="cursor: pointer">
+              <figure class="figure text-center">
+                <div class="figure-image">
+                  <img src="socmed/download (1).png" class="figure-img img-fluid rounded-circle" style="max-height: 110px" />
+                </div>
+                <figcaption class="figure-caption text-center">
+                  <h5>Email</h5>
+                  <span>centaurus@gmail.com</span>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div class="col-6 col-md-6 col-lg-3 justify-content-center d-flex">
+            <a style="cursor: pointer">
+              <figure class="figure text-center">
+                <div class="figure-image">
+                  <img src="socmed/fb.png" class="figure-img img-fluid rounded-circle" style="max-height: 110px" />
+                </div>
+                <figcaption class="figure-caption text-center">
+                  <h5>Facebook</h5>
+                  <span>Centaurus Cell</span>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div class="col-6 col-md-6 col-lg-3 justify-content-center d-flex">
+            <a style="cursor: pointer">
+              <figure class="figure text-center">
+                <div class="figure-image">
+                  <img src="socmed/ig.png" class="figure-img img-fluid rounded-circle" style="max-height: 110px" />
+                </div>
+                <figcaption class="figure-caption text-center">
+                  <h5>Instagram</h5>
+                  <span>CentaurusCellOficiall</span>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col">
+            <a style="color: #1a258b; cursor: pointer" class="see-all-kontak" data-bs-toggle="modal" data-bs-target="#our-designer">Cek Produk Merk Lain</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade empty-site-modal rounded-0" id="our-designer" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-body text-center p-md-5 pb-0">
+              <img src="empty-site.png" class="img-fluid" />
+              <h3 class="mt-3">Oopsss</h3>
+              <p>Halaman ini belum tersedia</p>
+              <a class="mx-auto btn btn-wish d-flex justify-content-center align-items-center" data-bs-dismiss="modal" role="button">Back</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Akhir Kontak -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="container" id="footer">
+        <div class="row">
+          <div class=" text-center">
+            <a class="navbar-brand" href="#">Selamat Berbelanja</a>
+          </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-baseline">
+          <div class="text-center">
+            <p>Kepuasaan Anda Adalah Yang Utama</p>
+            <p>Terimakasih Sudah Berbelanja <span>di Centaurus Cell</span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+      // javascript: window.history.go(-1);
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
